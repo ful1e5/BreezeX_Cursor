@@ -10,14 +10,14 @@ const white = "#FFFFFF";
 
 const config: Config[] = [
   {
-    themeName: "BreezeX Dark",
+    themeName: "BreezeX-Dark",
     color: {
       base: breeze,
       outline: white,
     },
   },
   {
-    themeName: "BreezeX Light",
+    themeName: "BreezeX-Light",
     color: {
       base: white,
       outline: breeze,
