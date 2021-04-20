@@ -32,13 +32,9 @@ def xbuild(config: Dict[str, Dict[str, Any]], x_out_dir: Path, info: Info) -> No
     """
 
     for _, item in config.items():
-        png = item["png"]
-        hotspot = item["hotspot"]
-        x_sizes = item["x_sizes"]
-        delay = item["delay"]
+        with CursorAlias.from_bitmap(item["png"], item["hotspot"]) as alias:
+            x_cfg = alias.create(item["x_sizes"], item["delay"])
 
-        with CursorAlias.from_bitmap(png, hotspot) as alias:
-            x_cfg = alias.create(x_sizes, delay)
             print(f"Building '{x_cfg.stem}' XCursor...")
             XCursor.create(x_cfg, x_out_dir)
 
@@ -62,24 +58,17 @@ def wbuild(config: Dict[str, Dict[str, Any]], win_out_dir: Path, info: Info) -> 
     """
 
     for _, item in config.items():
-        png = item["png"]
-        hotspot = item["hotspot"]
-        x_sizes = item["x_sizes"]
-        delay = item["delay"]
-
-        with CursorAlias.from_bitmap(png, hotspot) as alias:
-            alias.create(x_sizes, delay)
+        with CursorAlias.from_bitmap(item["png"], item["hotspot"]) as alias:
+            alias.create(item["x_sizes"], item["delay"])
 
             if item.get("win_key"):
-                position = item["position"]
-                win_size = item["win_size"]
-                win_key = item["win_key"]
-                canvas_size = item["canvas_size"]
-                win_delay = item["win_delay"]
-
                 win_cfg = alias.reproduce(
-                    win_size, canvas_size, position, delay=win_delay
-                ).rename(win_key)
+                    item["win_size"],
+                    item["canvas_size"],
+                    item["position"],
+                    delay=item["win_delay"],
+                ).rename(item["win_key"])
+
                 print(f"Building '{win_cfg.stem}' Windows Cursor...")
                 WindowsCursor.create(win_cfg, win_out_dir)
 
@@ -108,32 +97,24 @@ def build(
     :type info: Info
     """
 
-    def win_build(item: Dict[str, Any], alias: CursorAlias) -> None:
-        position = item["position"]
-        win_size = item["win_size"]
-        win_key = item["win_key"]
-        canvas_size = item["canvas_size"]
-        win_delay = item["win_delay"]
-
-        win_cfg = alias.reproduce(
-            win_size, canvas_size, position, delay=win_delay
-        ).rename(win_key)
-        print(f"Building '{win_cfg.stem}' Windows Cursor...")
-        WindowsCursor.create(win_cfg, win_out_dir)
-
     for _, item in config.items():
-        png = item["png"]
-        hotspot = item["hotspot"]
-        x_sizes = item["x_sizes"]
-        delay = item["delay"]
 
-        with CursorAlias.from_bitmap(png, hotspot) as alias:
-            x_cfg = alias.create(x_sizes, delay)
+        with CursorAlias.from_bitmap(item["png"], item["hotspot"]) as alias:
+            x_cfg = alias.create(item["x_sizes"], item["delay"])
+
             print(f"Building '{x_cfg.stem}' XCursor...")
             XCursor.create(x_cfg, x_out_dir)
 
             if item.get("win_key"):
-                win_build(item, alias)
+                win_cfg = alias.reproduce(
+                    item["win_size"],
+                    item["canvas_size"],
+                    item["position"],
+                    delay=item["win_delay"],
+                ).rename(item["win_key"])
+
+                print(f"Building '{win_cfg.stem}' Windows Cursor...")
+                WindowsCursor.create(win_cfg, win_out_dir)
 
     add_missing_xcursor(x_out_dir / "cursors")
     XPackager(x_out_dir, info.name, info.comment)
