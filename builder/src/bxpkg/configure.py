@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from typing import Any, Dict, Tuple, TypeVar
+from pathlib import Path
+from typing import Any, Dict, Tuple, TypeVar, Union
 
-from clickgen.util import PNGProvider
 from bxpkg.constants import WIN_CURSORS_CFG, WIN_DELAY, X_CURSORS_CFG, X_DELAY
+from clickgen.util import PNGProvider
 
 X = TypeVar("X")
 
@@ -13,28 +14,32 @@ def to_tuple(x: X) -> Tuple[X, X]:
     return (x, x)
 
 
-def get_config(bitmaps_dir, **kwargs) -> Dict[str, Any]:
+def get_config(bitmaps_dir: Union[str, Path], **kwargs) -> Dict[str, Any]:
     """Return configuration of `BreezeX` pointers.
 
-
     :param bitmaps_dir: Path to .png file's directory.
-    :type bitmaps_dir: Union[str, Path]
+    :type bitmaps_dir: ``str`` or  ``pathlib.Path``
 
-    :param \**kwargs:
-            See below
+    :param **kwargs:
+        See below
 
-        :Keyword Arguments:
-            * *x_sizes* (``List[int]``) --
-              List of pixel-sizes for xcursors.
-            * *win_canvas_size* (``int``) --
-              Windows cursor's canvas pixel-size.
-            * *win_size* (``int``) --
-              Pixel-size for Windows cursor.
+    :Keyword Arguments:
+        * *x_sizes* (``List[int]``) --
+          List of pixel-sizes for xcursors.
+        * *win_canvas_size* (``int``) --
+          Windows cursor's canvas pixel-size.
+        * *win_size* (``int``) --
+          Pixel-size for Windows cursor.
 
     Example:
 
     ```python
-        get_config("./bitmaps", x_sizes=[24, 32], win_canvas_size=32, win_size=24)
+        get_config(
+            bitmaps_dir="./bitmaps",
+            x_sizes=[24, 28, 32],
+            win_canvas_size=32,
+            win_size=24,
+        )
     ```
     """
 
