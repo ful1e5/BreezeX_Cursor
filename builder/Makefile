@@ -13,17 +13,10 @@ WIN_CANVAS_SIZE ?= 32
 WIN_SIZE ?= 24
 
 clean:
-	@rm -rf build dist src/*.egg-info
-	@find -iname "*.pyc" -delete
+	@rm -rf bxbuild/__pycache__
 
-	# Removing setup.py package files if installed
-	@if [ -f "files.txt" ]; then
-		@xargs rm -rf < files.txt
-		@rm -rf files.txt
-	@fi
-
-setup: setup.py
-	@python3 setup.py install --user --record files.txt
+setup:
+	@python3 -m pip install clickgen --user
 
 build: setup build.py
 	@$(foreach theme,$(THEMES), python3 build.py -p "$(bitmaps_dir)/BreezeX-$(theme)" --xsizes $(X_SIZES) --win-size $(WIN_SIZE) --win-canvas-size $(WIN_CANVAS_SIZE);)
