@@ -4,8 +4,8 @@
 import argparse
 from pathlib import Path
 
-from bxpkg.configure import get_config
-from bxpkg.generator import Info, build, wbuild, xbuild
+from bxbuild.configure import get_config
+from bxbuild.generator import Info, build, wbuild, xbuild
 
 parser = argparse.ArgumentParser(
     prog="breezex_builder",
