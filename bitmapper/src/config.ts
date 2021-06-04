@@ -5,22 +5,22 @@ interface Config {
   color: Colors;
 }
 
-const breeze = "#4D4D4D";
-const white = "#FFFFFF";
+const breezeColor = "#4D4D4D";
+const whiteColor = "#FFFFFF";
 
 const config: Config[] = [
   {
     themeName: "BreezeX-Dark",
     color: {
-      base: breeze,
-      outline: white,
+      base: breezeColor,
+      outline: whiteColor,
     },
   },
   {
     themeName: "BreezeX-Light",
     color: {
-      base: white,
-      outline: breeze,
+      base: whiteColor,
+      outline: breezeColor,
     },
   },
 ];
