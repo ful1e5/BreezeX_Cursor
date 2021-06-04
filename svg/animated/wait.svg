@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="none">
   <g filter="url(#filter0_d)">
-    <rect x="11" y="11" width="178" height="178" rx="50" fill="white"/>
+    <rect x="11" y="11" width="178" height="178" rx="50" fill="#0000FF"/>
   </g>
   <g transform="translate(100,100)">
     <g transform="scale(1.5)">
