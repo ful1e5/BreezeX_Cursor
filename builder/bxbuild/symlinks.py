@@ -176,7 +176,7 @@ def add_missing_xcursor(directory) -> None:
             ],
         },
         {"src": "wait", "links": ["watch"]},
-        {"src": "X_cursor", "links": ["pirate", "x-cursor"]},
+        {"src": "X_cursor", "links": ["x-cursor"]},
         {"src": "xterm", "links": ["ibeam", "text"]},
     ]
 
