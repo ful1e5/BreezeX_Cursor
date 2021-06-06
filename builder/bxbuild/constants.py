@@ -19,8 +19,9 @@ X_CURSORS_CFG: Dict[str, Dict[str, int]] = {
     # Static #
     ##########
     "all-scroll.png": {"xhot": 100, "yhot": 100},
-    "bottom_left_corner.png": {"xhot": 100, "yhot": 100},
-    "bottom_right_corner.png": {"xhot": 100, "yhot": 100},
+    "bottom_left_corner.png": {"xhot": 98, "yhot": 96},
+    "bottom_right_corner.png": {"xhot": 99, "yhot": 96},
+    #
     "bottom_tee.png": {"xhot": 100, "yhot": 100},
     "context-menu.png": {"xhot": 100, "yhot": 100},
     "copy.png": {"xhot": 100, "yhot": 100},
