@@ -14,6 +14,8 @@ X_DELAY: int = 10
 # Windows Cursor
 WIN_DELAY = 1
 
+
+# TODO: add coordinates
 X_CURSORS_CFG: Dict[str, Dict[str, int]] = {
     ##########
     # Static #

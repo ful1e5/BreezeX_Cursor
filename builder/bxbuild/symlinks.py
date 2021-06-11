@@ -20,26 +20,10 @@ def add_missing_xcursor(directory) -> None:
             "src": "bd_double_arrow",
             "links": [
                 "c7088f0f3e6c8088236ef8e1e3e70000",
+                "nw-resize",
                 "nwse-resize",
                 "size_fdiag",
-            ],
-        },
-        {
-            "src": "bottom_left_corner",
-            "links": [
-                "sw-resize",
-            ],
-        },
-        {
-            "src": "bottom_right_corner",
-            "links": [
                 "se-resize",
-            ],
-        },
-        {
-            "src": "bottom_side",
-            "links": [
-                "s-resize",
             ],
         },
         {
@@ -64,17 +48,29 @@ def add_missing_xcursor(directory) -> None:
         {
             "src": "crossed_circle",
             "links": [
-                "circle",
-                "03b6e0fcb3499374a867c041f52298f0",
                 "forbidden",
                 "not-allowed",
             ],
         },
-        {"src": "dnd_no_drop", "links": ["no-drop"]},
+        {
+            "src": "dnd_no_drop",
+            "links": [
+                "03b6e0fcb3499374a867c041f52298f0",
+                "circle",
+                "dnd-no-drop",
+                "no-drop",
+            ],
+        },
         {"src": "dotbox", "links": ["dot_box_mask", "draped_box", "icon", "target"]},
         {
             "src": "fd_double_arrow",
-            "links": ["fcf1c3c7cd4491d801f1e1c78f100000", "nesw-resize", "size_bdiag"],
+            "links": [
+                "fcf1c3c7cd4491d801f1e1c78f100000",
+                "ne-resize",
+                "nesw-resize",
+                "sw-resize",
+                "size_bdiag",
+            ],
         },
         {"src": "hand1", "links": ["grab", "openhand"]},
         {
@@ -102,7 +98,7 @@ def add_missing_xcursor(directory) -> None:
                 "progress",
             ],
         },
-        {"src": "left_side", "links": ["w-resize"]},
+        {"src": "left_side", "links": []},
         {
             "src": "link",
             "links": [
@@ -140,7 +136,6 @@ def add_missing_xcursor(directory) -> None:
             ],
         },
         {"src": "right_ptr", "links": ["draft_large", "draft_small"]},  # required
-        {"src": "right_side", "links": ["e-resize"]},
         {"src": "sb_down_arrow", "links": ["down-arrow"]},
         {
             "src": "sb_h_double_arrow",
@@ -148,11 +143,13 @@ def add_missing_xcursor(directory) -> None:
                 "028006030e0e7ebffc7f7070c0600140",
                 "14fef782d02440884392942c1120523",
                 "col-resize",
+                "e-resize",
                 "ew-resize",
                 "h_double_arrow",
                 "size-hor",
                 "size_hor",
                 "split_h",
+                "w-resize",
             ],
         },
         {"src": "sb_left_arrow", "links": ["left-arrow"]},
@@ -164,17 +161,17 @@ def add_missing_xcursor(directory) -> None:
                 "00008160000006810000408080010102",
                 "2870a09082c103050810ffdffffe0204",
                 "double_arrow",
+                "n-resize",
                 "ns-resize",
                 "row-resize",
                 "size-ver",
                 "size_ver",
+                "s-resize",
                 "split_v",
                 "v_double_arrow",
             ],
         },
-        {"src": "top_left_corner", "links": ["nw-resize"]},
-        {"src": "top_right_corner", "links": ["ne-resize"]},
-        {"src": "top_side", "links": ["n-resize"]},
+        # TODO remove empty
         {"src": "wait", "links": ["watch"]},
         {"src": "X_cursor", "links": ["x-cursor"]},
         {"src": "xterm", "links": ["ibeam", "text"]},
