@@ -17,27 +17,29 @@ def add_missing_xcursor(directory) -> None:
     symlinks: List[Dict[str, Union[str, List[str]]]] = [
         {"src": "all-scroll", "links": ["fleur", "size_all"]},
         {
+            "src": "bd_double_arrow",
+            "links": [
+                "c7088f0f3e6c8088236ef8e1e3e70000",
+                "nwse-resize",
+                "size_fdiag",
+            ],
+        },
+        {
             "src": "bottom_left_corner",
             "links": [
-                "fcf1c3c7cd4491d801f1e1c78f100000",
                 "sw-resize",
-                "ne-resize",
-                "size_bdiag",
-                "nesw-resize",
-                "top_right_corner",
-                "fd_double_arrow",
             ],
         },
         {
             "src": "bottom_right_corner",
             "links": [
-                "c7088f0f3e6c8088236ef8e1e3e70000",
-                "top_left_corner",
                 "se-resize",
-                "nw-resize",
-                "size_fdiag",
-                "nwse-resize",
-                "bd_double_arrow",
+            ],
+        },
+        {
+            "src": "bottom_side",
+            "links": [
+                "s-resize",
             ],
         },
         {
@@ -60,18 +62,20 @@ def add_missing_xcursor(directory) -> None:
             ],
         },
         {
-            "src": "dnd_no_drop",
+            "src": "crossed_circle",
             "links": [
-                "no-drop",
-                # crossed_circle symlinks
-                "crossed_circle",
-                "03b6e0fcb3499374a867c041f52298f0",
-                "not-allowed",
-                "forbidden",
                 "circle",
+                "03b6e0fcb3499374a867c041f52298f0",
+                "forbidden",
+                "not-allowed",
             ],
         },
+        {"src": "dnd_no_drop", "links": ["no-drop"]},
         {"src": "dotbox", "links": ["dot_box_mask", "draped_box", "icon", "target"]},
+        {
+            "src": "fd_double_arrow",
+            "links": ["fcf1c3c7cd4491d801f1e1c78f100000", "nesw-resize", "size_bdiag"],
+        },
         {"src": "hand1", "links": ["grab", "openhand"]},
         {
             "src": "hand2",
@@ -87,7 +91,6 @@ def add_missing_xcursor(directory) -> None:
             "links": [
                 "arrow",
                 "default",
-                "center_ptr",
             ],
         },
         {
@@ -99,6 +102,7 @@ def add_missing_xcursor(directory) -> None:
                 "progress",
             ],
         },
+        {"src": "left_side", "links": ["w-resize"]},
         {
             "src": "link",
             "links": [
@@ -136,6 +140,7 @@ def add_missing_xcursor(directory) -> None:
             ],
         },
         {"src": "right_ptr", "links": ["draft_large", "draft_small"]},  # required
+        {"src": "right_side", "links": ["e-resize"]},
         {"src": "sb_down_arrow", "links": ["down-arrow"]},
         {
             "src": "sb_h_double_arrow",
@@ -148,10 +153,6 @@ def add_missing_xcursor(directory) -> None:
                 "size-hor",
                 "size_hor",
                 "split_h",
-                "left_side",
-                "w-resize",
-                "right_side",
-                "e-resize",
             ],
         },
         {"src": "sb_left_arrow", "links": ["left-arrow"]},
@@ -169,12 +170,11 @@ def add_missing_xcursor(directory) -> None:
                 "size_ver",
                 "split_v",
                 "v_double_arrow",
-                "top_side",
-                "s-resize",
-                "n-resize",
-                "bottom_side",
             ],
         },
+        {"src": "top_left_corner", "links": ["nw-resize"]},
+        {"src": "top_right_corner", "links": ["ne-resize"]},
+        {"src": "top_side", "links": ["n-resize"]},
         {"src": "wait", "links": ["watch"]},
         {"src": "X_cursor", "links": ["x-cursor"]},
         {"src": "xterm", "links": ["ibeam", "text"]},

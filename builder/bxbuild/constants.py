@@ -18,6 +18,7 @@ X_CURSORS_CFG: Dict[str, Dict[str, int]] = {
     ##########
     # Static #
     ##########
+    "all-scroll.png": {"xhot": 100, "yhot": 100},
     "bd_double_arrow.png": {"xhot": 100, "yhot": 100},
     "bottom_left_corner.png": {"xhot": 100, "yhot": 100},
     "bottom_right_corner.png": {"xhot": 100, "yhot": 100},
@@ -76,7 +77,7 @@ WIN_CURSORS_CFG: Dict[str, Dict[str, str]] = {
     "bottom_right_corner.png": {"to": "Diagonal_1"},
     "bottom_left_corner.png": {"to": "Diagonal_2"},
     "pencil.png": {"to": "Handwriting"},
-    "question_arrow.png": {"to": "Help", "position.png": "top_left"},
+    "question_arrow.png": {"to": "Help", "position": "top_left"},
     "sb_h_double_arrow.png": {"to": "Horizontal"},
     "xterm.png": {"to": "IBeam", "position": "top_left"},
     "hand2.png": {"to": "Link", "position": "top_left"},
