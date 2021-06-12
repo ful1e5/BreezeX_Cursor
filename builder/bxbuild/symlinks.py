@@ -27,6 +27,12 @@ def add_missing_xcursor(directory) -> None:
             ],
         },
         {
+            "src": "col-resize",
+            "links": [
+                "split_h",
+            ],
+        },
+        {
             "src": "copy",
             "links": [
                 "1081e37283d90000800003c07f3ef6bf",
@@ -41,7 +47,6 @@ def add_missing_xcursor(directory) -> None:
                 "cross_reverse",
                 "diamond_cross",
                 "tcross",
-                "color-picker",
                 "crosshair",
             ],
         },
@@ -135,20 +140,24 @@ def add_missing_xcursor(directory) -> None:
                 "dnd-ask",
             ],
         },
-        {"src": "right_ptr", "links": ["draft_large", "draft_small"]},  # required
+        {"src": "right_ptr", "links": ["draft_large", "draft_small"]},
+        {
+            "src": "row-resize",
+            "links": [
+                "split_v",
+            ],
+        },
         {"src": "sb_down_arrow", "links": ["down-arrow"]},
         {
             "src": "sb_h_double_arrow",
             "links": [
                 "028006030e0e7ebffc7f7070c0600140",
                 "14fef782d02440884392942c1120523",
-                "col-resize",
                 "e-resize",
                 "ew-resize",
                 "h_double_arrow",
                 "size-hor",
                 "size_hor",
-                "split_h",
                 "w-resize",
             ],
         },
@@ -163,11 +172,9 @@ def add_missing_xcursor(directory) -> None:
                 "double_arrow",
                 "n-resize",
                 "ns-resize",
-                "row-resize",
                 "size-ver",
                 "size_ver",
                 "s-resize",
-                "split_v",
                 "v_double_arrow",
             ],
         },
