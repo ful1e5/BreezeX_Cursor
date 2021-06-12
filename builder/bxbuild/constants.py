@@ -14,63 +14,61 @@ X_DELAY: int = 10
 # Windows Cursor
 WIN_DELAY = 1
 
-
-# TODO: add coordinates
 X_CURSORS_CFG: Dict[str, Dict[str, int]] = {
     ##########
     # Static #
     ##########
     "all-scroll.png": {"xhot": 100, "yhot": 100},
-    "bd_double_arrow.png": {"xhot": 100, "yhot": 100},
-    "bottom_left_corner.png": {"xhot": 100, "yhot": 100},
-    "bottom_right_corner.png": {"xhot": 100, "yhot": 100},
-    "bottom_side.png": {"xhot": 100, "yhot": 100},
-    "center_ptr.png": {"xhot": 100, "yhot": 100},
+    "bd_double_arrow.png": {"xhot": 98, "yhot": 96},
+    "bottom_left_corner.png": {"xhot": 56, "yhot": 143},
+    "bottom_right_corner.png": {"xhot": 142, "yhot": 147},
+    "bottom_side.png": {"xhot": 100, "yhot": 148},
+    "center_ptr.png": {"xhot": 99, "yhot": 35},
     "col-resize.png": {"xhot": 100, "yhot": 100},
-    "context-menu.png": {"xhot": 100, "yhot": 100},
-    "copy.png": {"xhot": 100, "yhot": 100},
+    "color-picker.png": {"xhot": 42, "yhot": 157},
+    "context-menu.png": {"xhot": 57, "yhot": 30},
+    "copy.png": {"xhot": 57, "yhot": 30},
     "cross.png": {"xhot": 100, "yhot": 100},
-    "crossed_circle.png": {"xhot": 100, "yhot": 100},
+    "crossed_circle.png": {"xhot": 57, "yhot": 30},
     "dnd_no_drop.png": {"xhot": 100, "yhot": 100},
     "dotbox.png": {"xhot": 100, "yhot": 100},
-    "fd_double_arrow.png": {"xhot": 100, "yhot": 100},
-    "hand1.png": {"xhot": 100, "yhot": 100},
-    "hand2.png": {"xhot": 100, "yhot": 100},
-    "left_ptr.png": {"xhot": 100, "yhot": 100},
-    "left_side.png": {"xhot": 100, "yhot": 100},
-    "link.png": {"xhot": 100, "yhot": 100},
-    "move.png": {"xhot": 100, "yhot": 100},
-    "pencil.png": {"xhot": 100, "yhot": 100},
+    "fd_double_arrow.png": {"xhot": 98, "yhot": 96},
+    "hand1.png": {"xhot": 107, "yhot": 35},
+    "hand2.png": {"xhot": 90, "yhot": 35},
+    "left_ptr.png": {"xhot": 57, "yhot": 30},
+    "left_side.png": {"xhot": 52, "yhot": 100},
+    "link.png": {"xhot": 57, "yhot": 30},
+    "move.png": {"xhot": 101, "yhot": 51},
+    "pencil.png": {"xhot": 38, "yhot": 156},
     "pirate.png": {"xhot": 100, "yhot": 100},
     "plus.png": {"xhot": 100, "yhot": 100},
-    "question_arrow.png": {"xhot": 100, "yhot": 100},
-    "right_ptr.png": {"xhot": 100, "yhot": 100},
+    "question_arrow.png": {"xhot": 57, "yhot": 30},
+    "right_ptr.png": {"xhot": 136, "yhot": 32},
+    "right_side.png": {"xhot": 147, "yhot": 100},
     "row-resize.png": {"xhot": 100, "yhot": 100},
-    "right_side.png": {"xhot": 100, "yhot": 100},
-    "sb_down_arrow.png": {"xhot": 100, "yhot": 100},
-    "sb_h_double_arrow.png": {"xhot": 100, "yhot": 100},
-    "sb_left_arrow.png": {"xhot": 100, "yhot": 100},
-    "sb_right_arrow.png": {"xhot": 100, "yhot": 100},
-    "sb_up_arrow.png": {"xhot": 100, "yhot": 100},
-    "sb_v_double_arrow.png": {"xhot": 100, "yhot": 100},
-    "top_left_corner.png": {"xhot": 100, "yhot": 100},
-    "top_right_corner.png": {"xhot": 100, "yhot": 100},
-    "top_side.png": {"xhot": 100, "yhot": 100},
+    "sb_down_arrow.png": {"xhot": 100, "yhot": 160},
+    "sb_h_double_arrow.png": {"xhot": 98, "yhot": 96},
+    "sb_left_arrow.png": {"xhot": 38, "yhot": 100},
+    "sb_right_arrow.png": {"xhot": 162, "yhot": 100},
+    "sb_up_arrow.png": {"xhot": 100, "yhot": 38},
+    "sb_v_double_arrow.png": {"xhot": 98, "yhot": 96},
+    "top_left_corner.png": {"xhot": 57, "yhot": 55},
+    "top_right_corner.png": {"xhot": 142, "yhot": 55},
+    "top_side.png": {"xhot": 100, "yhot": 52},
     "vertical-text.png": {"xhot": 100, "yhot": 100},
     "wayland-cursor.png": {"xhot": 100, "yhot": 100},
     "X_cursor.png": {"xhot": 100, "yhot": 100},
     "xterm.png": {"xhot": 100, "yhot": 100},
-    "zoom-in.png": {"xhot": 100, "yhot": 100},
-    "zoom-out.png": {"xhot": 100, "yhot": 100},
+    "zoom-in.png": {"xhot": 85, "yhot": 80},
+    "zoom-out.png": {"xhot": 85, "yhot": 80},
     ############
     # Animated #
     ############
     # NOTE: Animated cursors don't need an extension and frame numbers.
-    "left_ptr_watch": {"xhot": 100, "yhot": 100},
+    "left_ptr_watch": {"xhot": 57, "yhot": 30},
     "wait": {"xhot": 100, "yhot": 100},
 }
 
-# TODO setting windows cursors
 WIN_CURSORS_CFG: Dict[str, Dict[str, str]] = {
     ##########
     # Static #
