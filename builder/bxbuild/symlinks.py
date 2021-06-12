@@ -178,7 +178,6 @@ def add_missing_xcursor(directory) -> None:
                 "v_double_arrow",
             ],
         },
-        # TODO remove empty
         {"src": "wait", "links": ["watch"]},
         {"src": "X_cursor", "links": ["x-cursor"]},
         {"src": "xterm", "links": ["ibeam", "text"]},
