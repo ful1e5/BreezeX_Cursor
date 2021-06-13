@@ -11,33 +11,25 @@ def add_missing_xcursor(directory) -> None:
     """Add missing `XCursor` to the Unix cursor package.
 
     :param directory: directory where XCursors are available.
-    :type directory: Union[str, Path]
+    :type directory: ``str`` or ``pathlib.Path``
     """
 
     symlinks: List[Dict[str, Union[str, List[str]]]] = [
         {"src": "all-scroll", "links": ["fleur", "size_all"]},
         {
-            "src": "bottom_left_corner",
+            "src": "bd_double_arrow",
             "links": [
-                "fcf1c3c7cd4491d801f1e1c78f100000",
-                "sw-resize",
-                "ne-resize",
-                "size_bdiag",
-                "nesw-resize",
-                "top_right_corner",
-                "fd_double_arrow",
+                "c7088f0f3e6c8088236ef8e1e3e70000",
+                "nw-resize",
+                "nwse-resize",
+                "size_fdiag",
+                "se-resize",
             ],
         },
         {
-            "src": "bottom_right_corner",
+            "src": "col-resize",
             "links": [
-                "c7088f0f3e6c8088236ef8e1e3e70000",
-                "top_left_corner",
-                "se-resize",
-                "nw-resize",
-                "size_fdiag",
-                "nwse-resize",
-                "bd_double_arrow",
+                "split_h",
             ],
         },
         {
@@ -55,23 +47,36 @@ def add_missing_xcursor(directory) -> None:
                 "cross_reverse",
                 "diamond_cross",
                 "tcross",
-                "color-picker",
                 "crosshair",
+            ],
+        },
+        {
+            "src": "crossed_circle",
+            "links": [
+                "forbidden",
+                "not-allowed",
             ],
         },
         {
             "src": "dnd_no_drop",
             "links": [
-                "no-drop",
-                # crossed_circle symlinks
-                "crossed_circle",
                 "03b6e0fcb3499374a867c041f52298f0",
-                "not-allowed",
-                "forbidden",
                 "circle",
+                "dnd-no-drop",
+                "no-drop",
             ],
         },
         {"src": "dotbox", "links": ["dot_box_mask", "draped_box", "icon", "target"]},
+        {
+            "src": "fd_double_arrow",
+            "links": [
+                "fcf1c3c7cd4491d801f1e1c78f100000",
+                "ne-resize",
+                "nesw-resize",
+                "sw-resize",
+                "size_bdiag",
+            ],
+        },
         {"src": "hand1", "links": ["grab", "openhand"]},
         {
             "src": "hand2",
@@ -87,7 +92,6 @@ def add_missing_xcursor(directory) -> None:
             "links": [
                 "arrow",
                 "default",
-                "center_ptr",
             ],
         },
         {
@@ -99,6 +103,7 @@ def add_missing_xcursor(directory) -> None:
                 "progress",
             ],
         },
+        {"src": "left_side", "links": []},
         {
             "src": "link",
             "links": [
@@ -135,23 +140,25 @@ def add_missing_xcursor(directory) -> None:
                 "dnd-ask",
             ],
         },
-        {"src": "right_ptr", "links": ["draft_large", "draft_small"]},  # required
+        {"src": "right_ptr", "links": ["draft_large", "draft_small"]},
+        {
+            "src": "row-resize",
+            "links": [
+                "split_v",
+            ],
+        },
         {"src": "sb_down_arrow", "links": ["down-arrow"]},
         {
             "src": "sb_h_double_arrow",
             "links": [
                 "028006030e0e7ebffc7f7070c0600140",
                 "14fef782d02440884392942c1120523",
-                "col-resize",
+                "e-resize",
                 "ew-resize",
                 "h_double_arrow",
                 "size-hor",
                 "size_hor",
-                "split_h",
-                "left_side",
                 "w-resize",
-                "right_side",
-                "e-resize",
             ],
         },
         {"src": "sb_left_arrow", "links": ["left-arrow"]},
@@ -163,20 +170,16 @@ def add_missing_xcursor(directory) -> None:
                 "00008160000006810000408080010102",
                 "2870a09082c103050810ffdffffe0204",
                 "double_arrow",
+                "n-resize",
                 "ns-resize",
-                "row-resize",
                 "size-ver",
                 "size_ver",
-                "split_v",
-                "v_double_arrow",
-                "top_side",
                 "s-resize",
-                "n-resize",
-                "bottom_side",
+                "v_double_arrow",
             ],
         },
         {"src": "wait", "links": ["watch"]},
-        {"src": "X_cursor", "links": ["pirate", "x-cursor"]},
+        {"src": "X_cursor", "links": ["x-cursor"]},
         {"src": "xterm", "links": ["ibeam", "text"]},
     ]
 

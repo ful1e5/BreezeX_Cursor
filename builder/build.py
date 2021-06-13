@@ -4,8 +4,8 @@
 import argparse
 from pathlib import Path
 
-from bxbuild.configure import get_config
-from bxbuild.generator import Info, build, wbuild, xbuild
+from bxbuild.configure import get_config  # type: ignore
+from bxbuild.generator import Info, build, wbuild, xbuild  # type: ignore
 
 parser = argparse.ArgumentParser(
     prog="breezex_builder",
@@ -51,20 +51,7 @@ parser.add_argument(
     dest="xsizes",
     metavar="INT",
     nargs="+",
-    default=[
-        22,
-        24,
-        28,
-        32,
-        40,
-        48,
-        56,
-        64,
-        72,
-        80,
-        88,
-        96,
-    ],
+    default=[22, 24, 28, 32, 40, 48, 56, 64, 72, 80, 88, 96],
     type=int,
     help="Set pixel-size for xcursor. (default: %(default)s)",
 )

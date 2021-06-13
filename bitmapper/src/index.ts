@@ -27,7 +27,7 @@ const main = async () => {
       console.log(" -> Saving", key, "...");
 
       content = SVGHandler.colorSvg(content, color);
-      await png.generateAnimated(browser, content, key);
+      await png.generateAnimated(browser, content, key, { playbackRate: 0.3 });
     }
 
     await browser.close();

@@ -21,14 +21,14 @@ def xbuild(config: Dict[str, Dict[str, Any]], x_out_dir: Path, info: Info) -> No
     """Build `BreezeX` cursor theme for only `X11`(UNIX) platform.
 
     :param config: `BreezeX` configuration.
-    :type config: Dict
+    :type config: ``Dict``
 
     :param x_out_dir: Path to the output directory,\
                 Where the `X11` cursor theme package will generate.\
                 It also creates a directory if not exists.
-    :type x_out_dir: Path
+    :type x_out_dir: ``pathlib.Path``
 
-    :param info: Content theme name & comment
+    :param info: Content theme name & comment.
     :type info: Info
     """
 
@@ -47,14 +47,14 @@ def wbuild(config: Dict[str, Dict[str, Any]], win_out_dir: Path, info: Info) -> 
     """Build `BreezeX` cursor theme for only `Windows` platforms.
 
     :param config: `BreezeX` configuration.
-    :type config: Dict
+    :type config: ``Dict``
 
     :param win_out_dir: Path to the output directory,\
                   Where the `Windows` cursor theme package will generate.\
                   It also creates a directory if not exists.
-    :type win_out_dir: Path
+    :type win_out_dir: ``pathlib.Path``
 
-    :param info: Content theme name & comment
+    :param info: Content theme name & comment.
     :type info: Info
     """
 
@@ -82,19 +82,19 @@ def build(
     """Build `BreezeX` cursor theme for `X11` & `Windows` platforms.
 
     :param config: `BreezeX` configuration.
-    :type config: Dict
+    :type config: ``Dict``
 
     :param x_out_dir: Path to the output directory,\
                 Where the `X11` cursor theme package will generate.\
                 It also creates a directory if not exists.
-    :type x_out_dir: Path
+    :type x_out_dir: ``pathlib.Path``
 
     :param win_out_dir: Path to the output directory,\
                   Where the `Windows` cursor theme package will generate.\
                   It also creates a directory if not exists.
-    :type win_out_dir: Path
+    :type win_out_dir: ``pathlib.Path``
 
-    :param info: Content theme name & comment
+    :param info: Content theme name & comment.
     :type info: Info
     """
 
