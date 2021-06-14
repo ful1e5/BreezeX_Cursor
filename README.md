@@ -42,14 +42,13 @@
   </a>
 
   <!-- Third Row -->
-  <!-- TODO: -->
 
   <br />
-  <a href="">
+  <a href="https://www.pling.com/p/1538515/#files-panel">
     <img alt="License" src="https://img.shields.io/badge/-Linux-grey?logo=linux" />
   </a>
 
-  <a href="">
+  <a href="https://www.pling.com/p/1538515/#files-panel">
     <img alt="License" src="https://img.shields.io/badge/-Windows-blue?logo=windows" />
   </a>
 
@@ -95,10 +94,9 @@ Extended KDE Cursor theme, Highly inspired on **KDE Breeze** for `Windows` and `
 #### Quick install
 
 <!-- Quick install -->
-<!-- TODO: -->
 
 <p align="center">
-  <a href="" >
+  <a href="https://www.pling.com/p/1538515/#files-panel" >
     <img title="BreezeX Pling Store" width="40%" src="https://imgur.com/VxSgrWw.png">
   </a>
 </p>
@@ -139,7 +137,7 @@ sudo mv BreezeX-* /usr/share/icons/
 #### Windows
 
 1. unzip `.zip` file
-2. Open unziped directory in Explorer, and **right click** on `install.inf`.
+2. Open unzipped directory in Explorer, and **right click** on `install.inf`.
 3. Click 'Install' from the context menu, and authorize the modifications to your system.
 4. Open _Control Panel > Personalization and Appearance > Change mouse pointers_, and select **BreezeX Cursors**.
 5. Click '**Apply**'.
