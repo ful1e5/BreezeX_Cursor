@@ -108,15 +108,15 @@ Extended KDE Cursor theme, Highly inspired on **KDE Breeze** for `Windows` and `
 <!-- Preview -->
 
 <p align="center">
-  <img title="BreezeX Dark" src="https://imgur.com/W2YNFuw.png">
+  <img title="BreezeX Dark" src="https://imgur.com/xfmjST3.png">
   </br>
-  <sub>Dark BreezeX Cursors 🖤</sub>
+  <sub>Dark BreezeX Cursors</sub>
 </p>
 
 <p align="center">
-  <img title="BreezeX Light" src="https://imgur.com/25wSDfa.png">
+  <img title="BreezeX Light" src="https://imgur.com/3wCoRYV.png">
   </br>
-  <sub>Light BreezeX Cursors 🤍</sub>
+  <sub>Light BreezeX Cursors</sub>
 </p>
 
 ### Manual Install
