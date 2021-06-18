@@ -13,6 +13,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Windows resize cursors scale down
 - `text` & `vertical-text` cursors scale down
 
+### Added
+
+- **BreezeX-Black** variant added
+
 ## [v1.0.1] - 16 June 2021
 
 ### Changed
