@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Bigger hotspot dot for Resize cursors
+- Windows resize cursors scale down
+- `text` & `vertical-text` cursors scale down
 
 ## [v1.0.1] - 16 June 2021
 
