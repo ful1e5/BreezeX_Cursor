@@ -119,6 +119,12 @@ Extended KDE Cursor theme, Highly inspired on **KDE Breeze** for `Windows` and `
   <sub>Light BreezeX Cursors</sub>
 </p>
 
+<p align="center">
+  <img title="BreezeX Black" src="https://imgur.com/l75GrMa.png">
+  </br>
+  <sub>Black BreezeX Cursors</sub>
+</p>
+
 ### Manual Install
 
 #### Linux/X11
