@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [unreleased]
 
+## [v1.0.2] - 20 June 2021
+
 ### Changed
 
 - Bigger hotspot dot for Resize cursors
@@ -32,6 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Logo and badges
 - CI/CD Pipelines
 
-[unreleased]: https://github.com/ful1e5/BreezeX_Cursor/compare/v1.0.1...main
+[unreleased]: https://github.com/ful1e5/BreezeX_Cursor/compare/v1.0.2...main
+[v1.0.2]: https://github.com/ful1e5/BreezeX_Cursor/compare/v1.0.1...v1.0.2
 [v1.0.1]: https://github.com/ful1e5/BreezeX_Cursor/compare/v1.0.0...v1.0.1
 [v1.0.0]: https://github.com/ful1e5/BreezeX_Cursor/tree/v1.0.0
