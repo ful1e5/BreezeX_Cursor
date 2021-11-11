@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [unreleased]
 
+### Changed
+
+- sponsor with liberapay
+
+### Added
+
 ## [v1.0.2] - 20 June 2021
 
 ### Changed
