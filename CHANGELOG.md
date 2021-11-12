@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - sponsor with liberapay
 - builder module renamed to `src`
+- bitmapping log more descriptive
 
 ### Added
 
