@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `Makefile` command with `THEME_PREFIX` variable
 - distributed pling products docs inside `pling` directory
 - `prepare` command added inside `Makefile`
+- upload `BreezeX-Black` artifacts in `build` GitHub Action
 
 ### Changed
 
