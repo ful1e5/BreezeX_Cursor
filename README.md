@@ -1,75 +1,10 @@
-<p align="center">
-    <img src="https://imgur.com/5M6xQZx.png" width="120" alt="BreezeX" />
-</p>
-
-<p align="center">
-    extended KDE cursor 💙
-</p>
-
-<!-- Badges -->
-<p align="center">
-  <!-- First Row -->
-  <a href="https://github.com/ful1e5/BreezeX_Cursor/actions">
-    <img alt="GitHub Action Build" src="https://github.com/ful1e5/BreezeX_Cursor/actions/workflows/build.yml/badge.svg" width="102" />
-  </a>
-
-  <a href="https://www.codefactor.io/repository/github/ful1e5/breezex_cursor">
-    <img src="https://www.codefactor.io/repository/github/ful1e5/breezex_cursor/badge" alt="CodeFactor" />
-  </a>
-
-  <!-- Second Row -->
-  </br >
-  <a href="https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html">
-    <img alt="npm type definitions" src="https://img.shields.io/npm/types/typescript">
-  </a>
-
-  <a href="https://github.com/puppeteer/puppeteer/">
-    <img alt="Puppeteer version" src="https://img.shields.io/github/package-json/dependency-version/ful1e5/BreezeX_Cursor/puppeteer?filename=bitmapper%2Fpackage.json">
-  </a>
-
-  <a href="https://github.com/ful1e5/clickgen">
-    <img alt="Clickgen" src="https://img.shields.io/badge/theme%20builder-clickgen-FD0542" />
-  </a>
-
-  <!-- Second Row -->
-  <br />
-  <a href="https://github.com/ful1e5/BreezeX_Cursor/releases">
-    <img alt="BreezeX Cursor release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/ful1e5/BreezeX_Cursor?include_prer">
-  </a>
-
-  <a href="https://github.com/ful1e5/BreezeX_Cursor/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/ful1e5/BreezeX_Cursor?color=0081FB" />
-  </a>
-
-  <!-- Third Row -->
-
-  <br />
-  <a href="https://www.pling.com/p/1538515/#files-panel">
-    <img alt="License" src="https://img.shields.io/badge/-Linux-grey?logo=linux" />
-  </a>
-
-  <a href="https://www.pling.com/p/1538515/#files-panel">
-    <img alt="License" src="https://img.shields.io/badge/-Windows-blue?logo=windows" />
-  </a>
-
-  <a href="https://www.python.org/">
-    <img alt="License" src="https://img.shields.io/badge/-Python-yellow?logo=python" />
-  </a>
-
- <!-- Fourth Row -->
-  <br />
-  <a href="https://github.com/ful1e5">
-    <img alt="Made By Kaiz"  src="https://kaiz.vercel.app/api/badge" width="133" />
-  </a>
-</p>
-
----
-
-<!-- Intro -->
-
 # BreezeX Cursor
 
 Extended KDE Cursor theme, Highly inspired on **KDE Breeze** for `Windows` and `Linux` with _HiDPi Support_ 🎉.
+
+[![Build](https://github.com/ful1e5/BreezeX_Cursor/actions/workflows/build.yml/badge.svg)](https://github.com/ful1e5/BreezeX_Cursor/actions)
+[![CodeFactor](https://www.codefactor.io/repository/github/ful1e5/breezex_cursor/badge)](https://www.codefactor.io/repository/github/ful1e5/breezex_cursor)
+[![Twitter](https://img.shields.io/badge/twitter-ful1e5-blue)](https://twitter.com/ful1e5)
 
 #### Cursor Sizes
 
@@ -91,9 +26,7 @@ Extended KDE Cursor theme, Highly inspired on **KDE Breeze** for `Windows` and `
 ![#4C4C4C](https://imgur.com/oHJxr47.png)
 ![#FFFFFF](https://imgur.com/0Wexs1k.png)
 
-#### Quick install
-
-<!-- Quick install -->
+### Quick install
 
 <p align="center">
   <a href="https://www.pling.com/p/1538515/#files-panel" >
@@ -104,8 +37,6 @@ Extended KDE Cursor theme, Highly inspired on **KDE Breeze** for `Windows` and `
 #### Preview:
 
 > Check Figma file [here](https://www.figma.com/file/Uo4LeHvFUPDgoqLjnFc1LB/BreezeX?node-id=0%3A1)
-
-<!-- Preview -->
 
 <p align="center">
   <img title="BreezeX Dark" src="https://imgur.com/xfmjST3.png">
@@ -147,8 +78,6 @@ sudo mv BreezeX-* /usr/share/icons/
 3. Click 'Install' from the context menu, and authorize the modifications to your system.
 4. Open _Control Panel > Personalization and Appearance > Change mouse pointers_, and select **BreezeX Cursors**.
 5. Click '**Apply**'.
-
-<!-- Build Dependencies -->
 
 # Dependencies
 
@@ -270,41 +199,14 @@ make windows WIN_SIZE=96            # Supports only one pixel-size
 
 > For installation follow [these](#windows) steps.
 
-<!-- Bug Report -->
-
 # Bugs
 
-Bugs 🐛 should be reported [here](https://github.com/ful1e5/BreezeX_Cursor/issues) on the Github issues page.
-
-<!-- Help -->
+Bugs should be reported [here](https://github.com/ful1e5/BreezeX_Cursor/issues) on the Github issues page.
 
 # Getting Help
 
-You can create a **issue**, I will help you. 🙂
-
-<!-- Contributions and Suggestion -->
+You can create a **issue**, I will help you.
 
 # Contributing
 
 Check [CONTRIBUTING.md](CONTRIBUTING.md), any suggestions for features and contributions to the continuing code masterelopment can be made via the issue tracker or code contributions via a `Fork` & `Pull requests`.
-
-<!-- Support -->
-
-## Support
-
-Give a **★** or Follow on [GitHub](https://github.com/ful1e5),That's work as **Steroid 💉** for me. 😉
-
-> For extra support
-
-<a href="https://www.buymeacoffee.com/Nt7Wg4V" target="_blank">
-  <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" >
-</a>
-
-<!-- Ninja  -->
-
-<h1 align="center">
-  ( `ω´ )۶▬ι═══════ﺤ
-</h1>
-<p align="center">
-  <sub>I'm Using Katana</sub>
-</p>
