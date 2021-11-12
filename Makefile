@@ -51,3 +51,18 @@ uninstall:
 	@fi
 
 reinstall: uninstall install
+
+# generates binaries
+BIN_DIR = ../bin
+THEMES = Dark Light Black
+prepare: bitmaps themes
+	@rm -rf bin && mkdir bin
+	@$(foreach theme,$(THEMES), mkdir -p bin/$(THEME_PREFIX)-$(theme);)
+	@cd bitmaps
+	@$(foreach theme,$(THEMES), zip -r $(BIN_DIR)/$(THEME_PREFIX)-$(theme)/bitmaps.zip $(THEME_PREFIX)-$(theme);)
+	@zip -r $(BIN_DIR)/bitmaps.zip *
+	@cd ..
+	@cd themes
+	@$(foreach theme,$(THEMES), tar -czvf $(BIN_DIR)/$(THEME_PREFIX)-$(theme)/$(THEME_PREFIX)-$(theme).tar.gz $(THEME_PREFIX)-$(theme);)
+	@$(foreach theme,$(THEMES), zip -r $(BIN_DIR)/$(THEME_PREFIX)-$(theme)/$(THEME_PREFIX)-$(theme)-Windows.zip $(THEME_PREFIX)-$(theme)-Windows;)
+	@cd ..
