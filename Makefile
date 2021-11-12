@@ -21,31 +21,32 @@ windows: clean render bitmaps
 # Installation
 .ONESHELL:
 SHELL:=/bin/bash
+THEME_PREFIX = BreezeX
 
-src = ./themes/BreezeX-*
+src = ./themes/$(THEME_PREFIX)-*
 local := ~/.icons
-local_dest := $(local)/BreezeX-*
+local_dest := $(local)/$(THEME_PREFIX)-*
 
 root := /usr/share/icons
-root_dest := $(root)/BreezeX-*
+root_dest := $(root)/$(THEME_PREFIX)-*
 
 install: themes
 	@if [[ $EUID -ne 0 ]]; then
-		@echo "> Installing 'BreezeX' cursors inside $(local)/..."
+		@echo "> Installing '$(THEME_PREFIX)' cursors inside $(local)/..."
 		@mkdir -p $(local)
 		@cp -r $(src) $(local)/ && echo "> Installed!"
 	@else
-		@echo "> Installing 'BreezeX' cursors inside $(root)/..."
+		@echo "> Installing '$(THEME_PREFIX)' cursors inside $(root)/..."
 		@mkdir -p $(root)
 		@sudo cp -r $(src) $(root)/ && echo "> Installed!"
 	@fi
 
 uninstall:
 	@if [[ $EUID -ne 0 ]]; then
-		@echo "> Removing 'BreezeX' cursors from '$(local)'..."
+		@echo "> Removing '$(THEME_PREFIX)' cursors from '$(local)'..."
 		@rm -rf $(local_dest)
 	@else
-		@echo "> Removing 'BreezeX' cursors from '$(root)'..."
+		@echo "> Removing '$(THEME_PREFIX)' cursors from '$(root)'..."
 		@sudo rm -rf $(root_dest)
 	@fi
 
