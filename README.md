@@ -25,33 +25,32 @@ Extended KDE Cursor theme, Highly inspired on **KDE Breeze** for `Windows` and `
 
 ![#4C4C4C](https://imgur.com/oHJxr47.png)
 ![#FFFFFF](https://imgur.com/0Wexs1k.png)
+![#000000](https://imgur.com/06jisfL.png)
 
 ### Quick install
 
-<p align="center">
-  <a href="https://www.pling.com/p/1538515/#files-panel" >
-    <img title="BreezeX Pling Store" width="40%" src="https://imgur.com/VxSgrWw.png">
-  </a>
-</p>
+- BreezeX Dark: [https://www.pling.com/p/1538515](https://www.pling.com/p/1538515)
+- BreezeX Light: [https://www.pling.com/p/1640746](https://www.pling.com/p/1640746)
+- BreezeX Black: [https://www.pling.com/p/1640747](https://www.pling.com/p/1640747)
 
 #### Preview:
 
 > Check Figma file [here](https://www.figma.com/file/Uo4LeHvFUPDgoqLjnFc1LB/BreezeX?node-id=0%3A1)
 
 <p align="center">
-  <img title="BreezeX Dark" src="https://imgur.com/xfmjST3.png">
+  <img title="BreezeX Dark" src="https://imgur.com/zDGsq2h.png">
   </br>
   <sub>Dark BreezeX Cursors</sub>
 </p>
 
 <p align="center">
-  <img title="BreezeX Light" src="https://imgur.com/3wCoRYV.png">
+  <img title="BreezeX Light" src="https://imgur.com/tmKu1vC.png">
   </br>
   <sub>Light BreezeX Cursors</sub>
 </p>
 
 <p align="center">
-  <img title="BreezeX Black" src="https://imgur.com/l75GrMa.png">
+  <img title="BreezeX Black" src="https://imgur.com/kzLufkT.png">
   </br>
   <sub>Black BreezeX Cursors</sub>
 </p>
