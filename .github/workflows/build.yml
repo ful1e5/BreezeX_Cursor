@@ -57,6 +57,7 @@ jobs:
         run: |
           tar -cvzf BreezeX-Dark.tar.gz themes/BreezeX-Dark
           tar -cvzf BreezeX-Light.tar.gz themes/BreezeX-Light
+          tar -cvzf BreezeX-Black.tar.gz themes/BreezeX-Black
 
       - name: Uploading `bitmaps` artifact
         uses: actions/upload-artifact@v2
@@ -76,6 +77,12 @@ jobs:
           name: BreezeX-Light
           path: BreezeX-Light.tar.gz
 
+      - name: Uploading `BreezeX-Black` UNIX Theme artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: BreezeX-Black
+          path: BreezeX-Black.tar.gz
+
       - name: Uploading `BreezeX-Dark` Windows Theme artifact
         uses: actions/upload-artifact@v2
         with:
@@ -87,3 +94,9 @@ jobs:
         with:
           name: BreezeX-Light-Windows
           path: themes/BreezeX-Light-Windows/*
+
+      - name: Uploading `BreezeX-Black` Windows Theme artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: BreezeX-Black-Windows
+          path: themes/BreezeX-Black-Windows/*

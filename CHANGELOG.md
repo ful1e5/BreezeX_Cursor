@@ -7,23 +7,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [unreleased]
 
-### Changed
-
-- sponsor with liberapay
+## [v1.0.3] - 13 Nov 2021
 
 ### Added
 
+- `Makefile` command with `THEME_PREFIX` variable
+- distributed pling products docs inside `pling` directory
+- `prepare` command added inside `Makefile`
+- upload `BreezeX-Black` artifacts in `build` GitHub Action
+
+### Changed
+
+- sponsor with liberapay
+- builder module renamed to `src`
+- bitmapping log more descriptive
+- minimal `README.md` (removed badges and emojis)
+
 ## [v1.0.2] - 20 June 2021
+
+### Added
+
+- **BreezeX-Black** variant added
 
 ### Changed
 
 - Bigger hotspot dot for Resize cursors
 - Windows resize cursors scale down
 - `text` & `vertical-text` cursors scale down
-
-### Added
-
-- **BreezeX-Black** variant added
 
 ## [v1.0.1] - 16 June 2021
 

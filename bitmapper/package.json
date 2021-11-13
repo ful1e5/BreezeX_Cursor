@@ -1,7 +1,7 @@
 {
   "name": "breezex-bitmapper",
-  "version": "1.0.2",
-  "description": "extended KDE cursor 💙",
+  "version": "1.0.3",
+  "description": "extended KDE cursor",
   "main": "index.js",
   "repository": "git@github.com:ful1e5/BreezeX_Cursor.git",
   "author": "Kaiz Khatri",
