@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [unreleased]
 
+## [v1.0.3] - 13 Nov 2021
+
 ### Added
 
 - `Makefile` command with `THEME_PREFIX` variable
