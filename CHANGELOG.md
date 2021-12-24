@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [unreleased]
 
+### Added
+
+- Add cursor top_left_arrow #10 #11
+
+### Changed
+
+- Fix `None` value warning in `builder/symlinks.py`
+
 ## [v1.0.3] - 13 Nov 2021
 
 ### Added
