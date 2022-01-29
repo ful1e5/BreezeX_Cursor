@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Add cursor top_left_arrow #10 #11
+- Uninstall docs ful1e5/apple_cursor#79 ful1e5/apple_cursor#80
 
 ### Changed
 

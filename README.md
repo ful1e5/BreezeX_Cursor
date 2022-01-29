@@ -78,6 +78,26 @@ sudo mv BreezeX-* /usr/share/icons/
 4. Open _Control Panel > Personalization and Appearance > Change mouse pointers_, and select **BreezeX Cursors**.
 5. Click '**Apply**'.
 
+### Uninstall
+
+#### Linux/X11
+
+```bash
+# From local users
+rm -rf ~/.icons/BreezeX-*
+
+# From all users
+sudo rm -rf /usr/share/icons/BreezeX-*
+```
+
+#### Windows
+
+1. Go to **Registry Editor** by typing the same in the _start search box_.
+2. Expand `HKEY_CURRENT_USER` folder and expand `Control Panel` folder.
+3. Go to `Cursors` folder and click on `Schemes` folder - all the available custom cursors that are installed will be listed here.
+4. **Right Click** on the name of cursor file you want to uninstall; for eg.: \_BreezeX Cursors\_ and click `Delete`.
+5. Click '**yes**' when prompted.
+
 # Dependencies
 
 ## External Libraries
