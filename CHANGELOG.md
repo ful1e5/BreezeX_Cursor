@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Fix `None` value warning in `builder/symlinks.py`
 - sponsorship links updated
+- fixed #17
 
 ## [v1.0.3] - 13 Nov 2021
 
