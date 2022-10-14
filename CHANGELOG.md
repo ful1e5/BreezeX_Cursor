@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [unreleased]
 
+## [v2.0.0] - 14 October 2021
+
 ### Added
 
 - Refactor: build with `clickgen v2` #21
@@ -20,7 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - fixed #21
 - Human readable docs #16
 
-## [v1.0.3] - 13 Nov 2021
+## [v1.0.3] - 13 November 2021
 
 ### Added
 
@@ -63,7 +65,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Logo and badges
 - CI/CD Pipelines
 
-[unreleased]: https://github.com/ful1e5/BreezeX_Cursor/compare/v1.0.2...main
+[unreleased]: https://github.com/ful1e5/BreezeX_Cursor/compare/v2.0.0...main
+[v2.0.0]: https://github.com/ful1e5/BreezeX_Cursor/compare/v1.0.3...v2.0.0
+[v1.0.3]: https://github.com/ful1e5/BreezeX_Cursor/compare/v1.0.2...v1.0.3
 [v1.0.2]: https://github.com/ful1e5/BreezeX_Cursor/compare/v1.0.1...v1.0.2
 [v1.0.1]: https://github.com/ful1e5/BreezeX_Cursor/compare/v1.0.0...v1.0.1
 [v1.0.0]: https://github.com/ful1e5/BreezeX_Cursor/tree/v1.0.0
