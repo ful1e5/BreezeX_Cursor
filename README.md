@@ -59,13 +59,13 @@ N/A
 
 ### BreezeX Dark
 
-- Base Color - `#4D4D4D` (Breeze Dark)
+- Base Color - `#4D4D4D` (Breeze)
 - Outline Color - `#FFFFFF` (White)
 
 ### BreezeX Light
 
 - Base Color - `#FFFFFF` (White)
-- Outline Color - `#000000` (Black)
+- Outline Color - `#4D4D4D` (Breeze)
 
 ### BreezeX Dark
 
@@ -226,7 +226,7 @@ Here are the default commands we used for generating the BreezeX's bitmaps and p
 
 ```bash
 npx cbmp -d 'svg' -n 'BreezeX-Dark' -bc '#4D4D4D' -oc '#FFFFFF'
-npx cbmp -d 'svg' -n 'BreezeX-Light' -bc '#FFFFFF' -oc '#000000'
+npx cbmp -d 'svg' -n 'BreezeX-Light' -bc '#FFFFFF' -oc '#4D4D4D'
 npx cbmp -d 'svg' -n 'BreezeX-Black' -bc '#000000' -oc '#FFFFFF'
 ```
 

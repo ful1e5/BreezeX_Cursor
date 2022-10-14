@@ -4,7 +4,7 @@
   },
   "scripts": {
     "render:breezex-dark": "npx cbmp -d 'svg' -n 'BreezeX-Dark' -bc '#4D4D4D' -oc '#FFFFFF'",
-    "render:breezex-light": "npx cbmp -d 'svg' -n 'BreezeX-Light' -bc '#FFFFFF' -oc '#000000'",
+    "render:breezex-light": "npx cbmp -d 'svg' -n 'BreezeX-Light' -bc '#FFFFFF' -oc '#4D4D4D'",
     "render:breezex-black": "npx cbmp -d 'svg' -n 'BreezeX-Black' -bc '#000000' -oc '#FFFFFF'",
     "render": "yarn render:breezex-dark && yarn render:breezex-light && yarn render:breezex-black",
     "build:breezex-dark": "ctgen build.toml -d 'bitmaps/BreezeX-Dark' -n 'BreezeX-Dark' -c 'BreezeX Dark cursors.'",

@@ -9,14 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v2.0.0] - 14 October 2021
 
-### Added
+### What's New?
 
 - Refactor: build with `clickgen v2` #21
 - Add cursor top_left_arrow #10 #11
 - Uninstall docs ful1e5/apple_cursor#79 ful1e5/apple_cursor#80
 - ci: support `clickgen v2` build with cross platform test
 
-### Changed
+### Issue Fixes
 
 - fixed #17
 - fixed #21
