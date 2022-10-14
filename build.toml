@@ -366,3 +366,11 @@ png = 'xterm.png'
 x11_name = 'xterm'
 win_name = 'IBeam'
 x11_symlinks = ["ibeam", "text"]
+
+[cursors.zoom-in]
+png = 'zoom-in.png'
+x11_name = 'zoom-in'
+
+[cursors.zoom-out]
+png = 'zoom-out.png'
+x11_name = 'zoom-out'
