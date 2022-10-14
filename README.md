@@ -2,9 +2,7 @@
 
 Extended KDE cursor, Highly inspired on **KDE Breeze** for `Windows` and `Linux` with _HiDPi Support_ 🎉.
 
-[![Build](https://github.com/ful1e5/BreezeX_Cursor/actions/workflows/build.yml/badge.svg)](https://github.com/ful1e5/BreezeX_Cursor/actions)
-[![CodeFactor](https://www.codefactor.io/repository/github/ful1e5/breezex_cursor/badge)](https://www.codefactor.io/repository/github/ful1e5/breezex_cursor)
-[![Twitter](https://img.shields.io/badge/twitter-ful1e5-blue)](https://twitter.com/ful1e5)
+[![build](https://github.com/ful1e5/BreezeX_Cursor/actions/workflows/build.yml/badge.svg)](https://github.com/ful1e5/BreezeX_Cursor/actions/workflows/build.yml)
 
 #### Cursor Sizes
 
