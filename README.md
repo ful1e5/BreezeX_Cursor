@@ -67,7 +67,7 @@ N/A
 - Base Color - `#FFFFFF` (White)
 - Outline Color - `#4D4D4D` (Breeze)
 
-### BreezeX Dark
+### BreezeX Black
 
 - Base Color - `#000000` (Black)
 - Outline Color - `#FFFFFF` (White)
