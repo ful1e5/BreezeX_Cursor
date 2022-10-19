@@ -191,13 +191,13 @@ To build Windows cursor with size `16`:
 > be considered in build.
 
 ```bash
-ctgen build.toml -s 16 -p windows -d 'bitmaps/BreezeX-Light' -n 'BreezeX-Light' -c 'White BreezeX cusors with size 16'
+ctgen build.toml -s 16 -p windows -d 'bitmaps/BreezeX-Light' -n 'BreezeX-Light' -c 'White BreezeX cursors with size 16'
 ```
 
 You can also customize output directory with `-o` option:
 
 ```bash
-ctgen build.toml -s 16 -p windows -d 'bitmaps/BreezeX-Light' -o 'out' -n 'BreezeX-Light' -c 'White BreezeX cusors with size 16'
+ctgen build.toml -s 16 -p windows -d 'bitmaps/BreezeX-Light' -o 'out' -n 'BreezeX-Light' -c 'White BreezeX cursors with size 16'
 ```
 
 ##### Customize XCursor size
@@ -205,13 +205,13 @@ ctgen build.toml -s 16 -p windows -d 'bitmaps/BreezeX-Light' -o 'out' -n 'Breeze
 To build XCursor with size `16`:
 
 ```bash
-ctgen build.toml -s 16 -p x11 -d 'bitmaps/BreezeX-Light' -n 'BreezeX-Light' -c 'White BreezeX cusors with size 16'
+ctgen build.toml -s 16 -p x11 -d 'bitmaps/BreezeX-Light' -n 'BreezeX-Light' -c 'White BreezeX cursors with size 16'
 ```
 
 You can also assign multiple sizes to `ctgen` for XCursors build:
 
 ```bash
-ctgen build.toml -s 16 24 32 -p x11 -d 'bitmaps/BreezeX-Light' -n 'BreezeX-Light' -c 'White BreezeX cusors with size 16'
+ctgen build.toml -s 16 24 32 -p x11 -d 'bitmaps/BreezeX-Light' -n 'BreezeX-Light' -c 'White BreezeX cursors with size 16'
 ```
 
 #### Customize Colors
