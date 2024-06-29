@@ -17,6 +17,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     -   `configs/win_lg.build.toml`: Used to build large size Windows cursors.
     -   `configs/win_xxl.build.toml`: Used to build extra large size Windows cursors.
 
+### What's New?
+
+-   Support `256px` cursors
+
 ## [v2.0.0] - 14 October 2021
 
 ### What's New?
