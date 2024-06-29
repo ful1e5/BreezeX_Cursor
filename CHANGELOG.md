@@ -7,63 +7,73 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [unreleased]
 
+### :warning: Changes for Developers/Package Distributors
+
+-   The 'bitmaps' directory has been removed from the git repository. You can now generate the PNG files using `yarn render` or download them from the release assets.
+
+-   The `build.toml` file has been removed. Instead, the cursor build configurations are now distributed according to platforms within the `configs` directory:
+    -   `configs/x.build.toml`: Used to build XCursor.
+    -   `configs/win_rg.build.toml`: Used to build regular size Windows cursors.
+    -   `configs/win_lg.build.toml`: Used to build large size Windows cursors.
+    -   `configs/win_xxl.build.toml`: Used to build extra large size Windows cursors.
+
 ## [v2.0.0] - 14 October 2021
 
 ### What's New?
 
-- Refactor: build with `clickgen v2` #21
-- Add cursor top_left_arrow #10 #11
-- Uninstall docs ful1e5/apple_cursor#79 ful1e5/apple_cursor#80
-- ci: support `clickgen v2` build with cross platform test
+-   ci: support `clickgen v2` build with cross platform test
+-   Uninstall docs ful1e5/apple_cursor#79 ful1e5/apple_cursor#80
+-   Add cursor top_left_arrow #10 #11
+-   Refactor: build with `clickgen v2` #21
 
 ### Issue Fixes
 
-- fixed #17
-- fixed #21
-- Human readable docs #16
+-   Human readable docs #16
+-   fixed #21
+-   fixed #17
 
 ## [v1.0.3] - 13 November 2021
 
 ### Added
 
-- `Makefile` command with `THEME_PREFIX` variable
-- distributed pling products docs inside `pling` directory
-- `prepare` command added inside `Makefile`
-- upload `BreezeX-Black` artifacts in `build` GitHub Action
+-   upload `BreezeX-Black` artifacts in `build` GitHub Action
+-   `prepare` command added inside `Makefile`
+-   distributed pling products docs inside `pling` directory
+-   `Makefile` command with `THEME_PREFIX` variable
 
 ### Changed
 
-- sponsor with liberapay
-- builder module renamed to `src`
-- bitmapping log more descriptive
-- minimal `README.md` (removed badges and emojis)
+-   minimal `README.md` (removed badges and emojis)
+-   bitmapping log more descriptive
+-   builder module renamed to `src`
+-   sponsor with liberapay
 
 ## [v1.0.2] - 20 June 2021
 
 ### Added
 
-- **BreezeX-Black** variant added
+-   **BreezeX-Black** variant added
 
 ### Changed
 
-- Bigger hotspot dot for Resize cursors
-- Windows resize cursors scale down
-- `text` & `vertical-text` cursors scale down
+-   `text` & `vertical-text` cursors scale down
+-   Windows resize cursors scale down
+-   Bigger hotspot dot for Resize cursors
 
 ## [v1.0.1] - 16 June 2021
 
 ### Changed
 
-- `left_ptr_watch` and `wait` got minimal design
-- Cursors preview updated
+-   Cursors preview updated
+-   `left_ptr_watch` and `wait` got minimal design
 
 ## [v1.0.0] - 14 June 2021
 
 ### Added
 
-- Initial release 🎊
-- Logo and badges
-- CI/CD Pipelines
+-   CI/CD Pipelines
+-   Logo and badges
+-   Initial release 🎊
 
 [unreleased]: https://github.com/ful1e5/BreezeX_Cursor/compare/v2.0.0...main
 [v2.0.0]: https://github.com/ful1e5/BreezeX_Cursor/compare/v1.0.3...v2.0.0
