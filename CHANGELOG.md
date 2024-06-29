@@ -21,6 +21,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -   Support `256px` cursors
 
+### Changes
+
+-   De-framed animated cursors
+-   Resigned the wait cursor with round background #23
+
 ## [v2.0.0] - 14 October 2021
 
 ### What's New?
