@@ -1,15 +1,6 @@
 {
   "dependencies": {
-    "cbmp": "ful1e5/cbmp"
+    "cbmp": "^1.1.1"
   },
-  "scripts": {
-    "render:breezex-dark": "npx cbmp -d 'svg' -n 'BreezeX-Dark' -bc '#4D4D4D' -oc '#FFFFFF'",
-    "render:breezex-light": "npx cbmp -d 'svg' -n 'BreezeX-Light' -bc '#FFFFFF' -oc '#4D4D4D'",
-    "render:breezex-black": "npx cbmp -d 'svg' -n 'BreezeX-Black' -bc '#000000' -oc '#FFFFFF'",
-    "render": "yarn render:breezex-dark && yarn render:breezex-light && yarn render:breezex-black",
-    "build:breezex-dark": "ctgen build.toml -d 'bitmaps/BreezeX-Dark' -n 'BreezeX-Dark' -c 'BreezeX Dark cursors.'",
-    "build:breezex-light": "ctgen build.toml -d 'bitmaps/BreezeX-Light' -n 'BreezeX-Light' -c 'BreezeX Light cursors.'",
-    "build:breezex-black": "ctgen build.toml -d 'bitmaps/BreezeX-Black' -n 'BreezeX-Black' -c 'BreezeX Black cursors.'",
-    "build": "yarn build:breezex-dark && yarn build:breezex-light && yarn build:breezex-black"
-  }
+  "scripts": {}
 }
