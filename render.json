@@ -1,0 +1,26 @@
+{
+  "BreezeX-Dark": {
+    "dir": "svg",
+    "out": "bitmaps/BreezeX-Dark",
+    "colors": [
+      { "match": "#00FF00", "replace": "#4D4D4D" },
+      { "match": "#0000FF", "replace": "#FFFFFF" }
+    ]
+  },
+  "BreezeX-Black": {
+    "dir": "svg",
+    "out": "bitmaps/BreezeX-Black",
+    "colors": [
+      { "match": "#00FF00", "replace": "#000000" },
+      { "match": "#0000FF", "replace": "#FFFFFF" }
+    ]
+  },
+  "BreezeX-Light": {
+    "dir": "svg",
+    "out": "bitmaps/BreezeX-Light",
+    "colors": [
+      { "match": "#00FF00", "replace": "#FFFFFF" },
+      { "match": "#0000FF", "replace": "#4D4D4D" }
+    ]
+  }
+}

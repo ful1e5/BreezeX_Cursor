@@ -2,5 +2,10 @@
   "dependencies": {
     "cbmp": "^1.1.1"
   },
-  "scripts": {}
+  "scripts": {
+    "clean": "rm -rf bin bitmaps themes",
+    "render": "npx cbmp render.json",
+    "build": "bash build.sh",
+    "generate": "npx cbmp render.json && bash build.sh"
+  }
 }

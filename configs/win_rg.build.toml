@@ -1,0 +1,124 @@
+[theme]
+name = 'BreezeX-Regular'
+comment = 'Extended KDE Regular Windows Cursor'
+website = 'https://www.github.com/ful1e5/BreezeX_Cursor'
+
+
+[config]
+bitmaps_dir = ''   # This config will assigned with `ctgen -d <path>`
+out_dir = '../themes'
+platforms = 'windows'
+
+
+[cursors]
+[cursors.fallback_settings]
+win_sizes = ["22:32", "32:48", "43:64", "64:96", "86:128"]
+x_hotspot = 128
+y_hotspot = 128
+win_delay = 1
+
+[cursors.all-scroll]
+png = 'all-scroll.png'
+win_name = 'Move'
+
+[cursors.bd_double_arrow]
+png = 'bd_double_arrow.png'
+x_hotspot = 127
+y_hotspot = 124
+win_name = 'Dng1'
+
+[cursors.cross]
+png = 'cross.png'
+win_name = 'Cross'
+
+[cursors.dnd_no_drop]
+png = 'dnd_no_drop.png'
+win_name = 'Unavailiable'
+
+[cursors.fd_double_arrow]
+png = 'fd_double_arrow.png'
+x_hotspot = 126
+y_hotspot = 125
+win_name = 'Dng2'
+
+[cursors.hand1]
+png = 'hand1.png'
+x_hotspot = 144
+y_hotspot = 90
+win_name = 'Pan'
+
+[cursors.hand2]
+png = 'hand2.png'
+x_hotspot = 117
+y_hotspot = 36
+win_name = 'Link'
+
+[cursors.move]
+png = 'move.png'
+x_hotspot = 141
+y_hotspot = 79
+win_name = 'Grabbing'
+
+[cursors.left_ptr]
+png = 'left_ptr.png'
+x_hotspot = 69
+y_hotspot = 30
+win_name = 'Pointer'
+
+[cursors.left_ptr_watch]
+png = 'left_ptr_watch-*.png'
+x_hotspot = 69
+y_hotspot = 30
+win_sizes = "64:96"
+win_name = 'Work'
+
+[cursors.pencil]
+png = 'pencil.png'
+x_hotspot = 40
+y_hotspot = 210
+win_name = 'Handwriting'
+
+[cursors.question_arrow]
+png = 'question_arrow.png'
+x_hotspot = 69
+y_hotspot = 30
+win_name = 'Help'
+
+[cursors.right_ptr]
+png = 'right_ptr.png'
+x_hotspot = 181
+y_hotspot = 30
+win_name = 'Alternate'
+
+[cursors.sb_h_double_arrow]
+png = 'sb_h_double_arrow.png'
+x_hotspot = 127
+y_hotspot = 125
+win_name = 'Horz'
+
+[cursors.sb_v_double_arrow]
+png = 'sb_v_double_arrow.png'
+x_hotspot = 126
+y_hotspot = 125
+win_name = 'Vert'
+
+[cursors.wait]
+png = 'wait-*.png'
+win_sizes = "64:96"
+win_name = 'Busy'
+
+[cursors.xterm]
+png = 'xterm.png'
+win_name = 'Text'
+
+[cursors.zoom-in]
+png = 'zoom-in.png'
+x_hotspot = 109
+y_hotspot = 103
+win_name = 'Zoom-in'
+
+[cursors.zoom-out]
+png = 'zoom-out.png'
+x_hotspot = 109
+y_hotspot = 103
+win_name = 'Zoom-out'
