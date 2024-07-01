@@ -122,3 +122,15 @@ png = 'zoom-out.png'
 x_hotspot = 109
 y_hotspot = 103
 win_name = 'Zoom-out'
+
+[cursors.person]
+png = 'person.png'
+x_hotspot = 69
+y_hotspot = 30
+win_name = 'Person'
+
+[cursors.pin]
+png = 'pin.png'
+x_hotspot = 69
+y_hotspot = 30
+win_name = 'Pin'
