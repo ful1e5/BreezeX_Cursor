@@ -39,9 +39,9 @@ jobs:
       - name: Print cbmp version
         run: npx cbmp --version
 
-      # - name: Rendering Bitmaps
-      #   run: yarn render
-      #   continue-on-error: false
+      - name: Rendering Bitmaps
+        run: yarn render
+        continue-on-error: false
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -57,5 +57,5 @@ jobs:
           clickgen --version
           ctgen --version
 
-      # - name: Build
-      #   run: yarn build
+      - name: Build
+        run: yarn build
