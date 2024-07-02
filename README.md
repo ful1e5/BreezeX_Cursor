@@ -18,9 +18,9 @@ Extended KDE cursor, Highly inspired on **KDE Breeze** for `Windows` and `Linux`
 
 ---
 
-![BreezeX Dark](https://imgur.com/zDGsq2h.png)
-![BreezeX Light](https://imgur.com/tmKu1vC.png)
-![BreezeX Black](https://imgur.com/kzLufkT.png)
+![Breeze Black](https://github.com/ful1e5/BreezeX_Cursor/assets/24286590/ebeb3bc7-3857-4b16-9894-8897507b1855)
+![Breeze Dark](https://github.com/ful1e5/BreezeX_Cursor/assets/24286590/e6e7d402-8ef4-4f4b-8f4c-a7f634461d52)
+![Breeze Light](https://github.com/ful1e5/BreezeX_Cursor/assets/24286590/d2e4c969-a358-42e1-b6bb-ddb0e9c94d30)
 
 ## Cursor Sizes
 
