@@ -2,6 +2,10 @@
 
 Extended KDE cursor, Highly inspired on **KDE Breeze** for `Windows` and `Linux` with _HiDPi Support_ .
 
+#### Extended!?
+
+BreezeX Cursor is an independent project that supports more XCursor sizes and also offers compatibility with Windows. BreezeX provides more cursor options than the standard Breeze Cursor and allows for customization of colors and cursor sizes using powerful open-source tools.
+
 [![build](https://github.com/ful1e5/BreezeX_Cursor/actions/workflows/build.yml/badge.svg)](https://github.com/ful1e5/BreezeX_Cursor/actions/workflows/build.yml)
 
 ## Notes
