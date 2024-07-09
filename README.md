@@ -167,7 +167,7 @@ The process of creating custom cursor themes involves two main steps:
 3. `-wc` (optional): Watch Background color, which replaces the `#FF0000` color in the SVG.
 
 ```bash
-npx cbmp [...] -bc '<hex>' -oc '<hex>' -wc '<hex>'
+npx cbmp [...] -bc "<hex>" -oc "<hex>" -wc "<hex>"
 ```
 
 Alternatively, you can provide a JSON configuration file to render SVG files, which contains a sequence of `cbmp` commands:
@@ -183,13 +183,13 @@ npx cbmp render.json
 To build Windows cursor with size `16`:
 
 ```bash
-ctgen build.toml -s 16 -p windows -d 'bitmaps/BreezeX-Dark' -n 'BreezeX-Dark' -c 'Extended Breeze XCursors with size 16'
+ctgen configs/win_lg.build.toml -s 16 -p windows -d "bitmaps/BreezeX-Dark" -n "BreezeX-Dark" -c "Extended Breeze XCursors with size 16"
 ```
 
 You can also customize output directory with `-o` option:
 
 ```bash
-ctgen build.toml -s 16 -p windows -d 'bitmaps/BreezeX-Dark' -o 'out' -n 'BreezeX-Dark' -c 'Extended Breeze Windows Cursors with size 16'
+ctgen configs/win_lg.build.toml -s 16 -p windows -d "bitmaps/BreezeX-Dark" -o "out" -n "BreezeX-Dark" -c "Extended Breeze Windows Cursors with size 16"
 ```
 
 ##### Customize XCursor size
@@ -197,13 +197,13 @@ ctgen build.toml -s 16 -p windows -d 'bitmaps/BreezeX-Dark' -o 'out' -n 'BreezeX
 To build XCursor with size `16`:
 
 ```bash
-ctgen build.toml -s 16 -p x11 -d 'bitmaps/BreezeX-Dark' -n 'BreezeX-Dark' -c 'Extended Breeze XCursors with size 16'
+ctgen configs/x.build.toml -s 16 -p x11 -d "bitmaps/BreezeX-Dark" -n "BreezeX-Dark" -c "Extended Breeze XCursors with size 16"
 ```
 
 You can also assign multiple sizes to `ctgen` for XCursors build:
 
 ```bash
-ctgen build.toml -s 16 18 24 32 -p x11 -d 'bitmaps/BreezeX-Dark' -n 'BreezeX-Dark' -c 'Extended Breeze XCursors with multi-sizes'
+ctgen configs/x.build.toml -s 16 18 24 32 -p x11 -d "bitmaps/BreezeX-Dark" -n "BreezeX-Dark" -c "Extended Breeze XCursors with multi-sizes"
 ```
 
 #### Examples
@@ -211,13 +211,17 @@ ctgen build.toml -s 16 18 24 32 -p x11 -d 'bitmaps/BreezeX-Dark' -n 'BreezeX-Dar
 Lets generate BreezeX Cursor with green and black colors:
 
 ```bash
-npx cbmp -d 'svg' -o 'bitmaps/BreezeX-Hacker' -bc '#00FE00' -oc '#000000'
+npx cbmp -d "svg" -o "bitmaps/BreezeX-Hacker" -bc "#00FE00" -oc "#000000"
 ```
 
 After rendering custom color you have to build cursor through `ctgen`:
 
 ```bash
-ctgen build.toml -d 'bitmaps/BreezeX-Hacker' -n 'BreezeX-Hacker' -c 'Green and Black BreezeX cursors.'
+ctgen configs/x.build.toml -d "bitmaps/BreezeX-Hacker" -n "BreezeX-Hacker" -c "Green and Black BreezeX cursors."
+
+ctgen configs/win_rg.build.toml -d "bitmaps/BreezeX-Hacker" -n "BreezeX-Hacker" -c "Green and Black BreezeX cursors."
+ctgen configs/win_lg.build.toml -d "bitmaps/BreezeX-Hacker" -n "BreezeX-Hacker" -c "Green and Black BreezeX cursors."
+ctgen configs/win_xl.build.toml -d "bitmaps/BreezeX-Hacker" -n "BreezeX-Hacker" -c "Green and Black BreezeX cursors."
 ```
 
 Afterwards, Generated theme can be found in the `themes` directory.
@@ -225,29 +229,50 @@ Afterwards, Generated theme can be found in the `themes` directory.
 ###### BreezeX Gruvbox
 
 ```bash
-npx cbmp -d 'svg/original' -o 'bitmaps/BreezeX-Gruvbox' -bc '#282828' -oc '#EBDBB2'
-ctgen build.toml -d 'bitmaps/BreezeX-Gruvbox' -n 'BreezeX-Gruvbox' -c 'Groovy BreezeX cursors.'
+npx cbmp -d "svg/original" -o "bitmaps/BreezeX-Gruvbox" -bc "#282828" -oc "#EBDBB2"
+
+ctgen configs/x.build.toml -d "bitmaps/BreezeX-Gruvbox" -n "BreezeX-Gruvbox" -c "Groovy BreezeX cursors."
+
+ctgen configs/win_rg.build.toml -d "bitmaps/BreezeX-Gruvbox" -n "BreezeX-Gruvbox" -c "Groovy BreezeX cursors."
+ctgen configs/win_lg.build.toml -d "bitmaps/BreezeX-Gruvbox" -n "BreezeX-Gruvbox" -c "Groovy BreezeX cursors."
+ctgen configs/win_xl.build.toml -d "bitmaps/BreezeX-Gruvbox" -n "BreezeX-Gruvbox" -c "Groovy BreezeX cursors."
 ```
 
 ###### BreezeX Solarized Dark
 
 ```bash
-npx cbmp -d 'svg/original' -o 'bitmaps/BreezeX-Solarized-Dark' -bc '#002b36' -oc '#839496'
-ctgen build.toml -d 'bitmaps/BreezeX-Solarized-Dark' -n 'BreezeX-Solarized-Dark' -c 'Solarized Dark BreezeX cursors.'
+npx cbmp -d "svg/original" -o "bitmaps/BreezeX-Solarized-Dark" -bc "#002b36" -oc "#839496"
+
+ctgen configs/x.build.toml -d "bitmaps/BreezeX-Solarized-Dark" -n "BreezeX-Solarized-Dark" -c "Solarized Dark BreezeX cursors."
+
+ctgen configs/win_rg.build.toml -d "bitmaps/BreezeX-Solarized-Dark" -n "BreezeX-Solarized-Dark" -c "Solarized Dark BreezeX cursors."
+ctgen configs/win_lg.build.toml -d "bitmaps/BreezeX-Solarized-Dark" -n "BreezeX-Solarized-Dark" -c "Solarized Dark BreezeX cursors."
+ctgen configs/win_xl.build.toml -d "bitmaps/BreezeX-Solarized-Dark" -n "BreezeX-Solarized-Dark" -c "Solarized Dark BreezeX cursors."
 ```
 
 ###### BreezeX Solarized Light
 
 ```bash
-npx cbmp -d 'svg/original' -o 'bitmaps/BreezeX-Solarized-Light' -bc '#839496' -oc '#002b36'
-ctgen build.toml -d 'bitmaps/BreezeX-Solarized-Light' -n 'BreezeX-Solarized-Light' -c 'Solarized Light BreezeX cursors.'
+npx cbmp -d "svg/original" -o "bitmaps/BreezeX-Solarized-Light" -bc "#839496" -oc "#002b36"
+
+ctgen configs/x.build.toml -d "bitmaps/BreezeX-Solarized-Light" -n "BreezeX-Solarized-Light" -c "Solarized Light BreezeX cursors."
+
+ctgen configs/win_rg.build.toml -d "bitmaps/BreezeX-Solarized-Light" -n "BreezeX-Solarized-Light" -c "Solarized Light BreezeX cursors."
+ctgen configs/win_lg.build.toml -d "bitmaps/BreezeX-Solarized-Light" -n "BreezeX-Solarized-Light" -c "Solarized Light BreezeX cursors."
+ctgen configs/win_xl.build.toml -d "bitmaps/BreezeX-Solarized-Light" -n "BreezeX-Solarized-Light" -c "Solarized Light BreezeX cursors."
+
 ```
 
 ###### BreezeX Dracula
 
 ```bash
-npx cbmp -d 'svg/original' -o 'bitmaas/BreezeX-Dracula' -bc '#282a36' -oc '#f8f8f2'
-ctgen build.toml -d 'bitmaps/BreezeX-Dracula' -n 'BreezeX-Dracula' -c 'Dracula BreezeX cursors.'
+npx cbmp -d "svg/original" -o "bitmaas/BreezeX-Dracula" -bc "#282a36" -oc "#f8f8f2"
+
+ctgen configs/x.build.toml -d "bitmaps/BreezeX-Dracula" -n "BreezeX-Dracula" -c "Dracula BreezeX cursors."
+
+ctgen configs/win_rg.build.toml -d "bitmaps/BreezeX-Dracula" -n "BreezeX-Dracula" -c "Dracula BreezeX cursors."
+ctgen configs/win_lg.build.toml -d "bitmaps/BreezeX-Dracula" -n "BreezeX-Dracula" -c "Dracula BreezeX cursors."
+ctgen configs/win_xl.build.toml -d "bitmaps/BreezeX-Dracula" -n "BreezeX-Dracula" -c "Dracula BreezeX cursors."
 ```
 
 ## Testing Cursor
