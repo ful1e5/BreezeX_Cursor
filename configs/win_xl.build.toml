@@ -25,7 +25,7 @@ win_name = 'Move'
 png = 'bd_double_arrow.png'
 x_hotspot = 127
 y_hotspot = 124
-win_name = 'Dng1'
+win_name = 'Dgn1'
 
 [cursors.cross]
 png = 'cross.png'
@@ -33,13 +33,13 @@ win_name = 'Cross'
 
 [cursors.dnd_no_drop]
 png = 'dnd_no_drop.png'
-win_name = 'Unavailiable'
+win_name = 'Unavailable'
 
 [cursors.fd_double_arrow]
 png = 'fd_double_arrow.png'
 x_hotspot = 126
 y_hotspot = 125
-win_name = 'Dng2'
+win_name = 'Dgn2'
 
 [cursors.hand1]
 png = 'hand1.png'
